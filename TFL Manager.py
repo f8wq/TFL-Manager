@@ -128,6 +128,5 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# Call keep_alive before running the bot
 keep_alive()
 bot.run(TOKEN)
